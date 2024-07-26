@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: #000000;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.box {
+    border: 2px solid black;
+    width: 376px;
+    height: 556px;
+    align-content: center;
+    border-radius: 34px;
+    background-color: #ffe5ec;
+}
+
+.button {
+    width: 69px;
+    padding: 22px;
+    margin: 3px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 23px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    color: #331E36;
+    /* background-color: #C2EFEB; */
+}
+
+.row button {
+    background-color: #ffffff;
+}
+
+.row1 button {
+    background-color: #ffc2d1;
+}
+
+.row2 button {
+    background-color: #ffb3c6;
+}
+
+.row3 button {
+    background-color: #ff8fab;
+}
+
+.row4 button {
+    background-color: #fb6f92;
+}
+
+.button:hover {
+    font-weight: bolder;
+
+}
+
+.row {
+    margin: 8px 0;
+
+
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.row1 {
+    margin: 8px 0;
+
+
+}
+
+.row1 input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.row2 {
+    margin: 8px 0;
+
+
+}
+
+.row2 input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.row3 {
+    margin: 8px 0;
+
+
+}
+
+.row3 input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.row4 {
+    margin: 8px 0;
+
+
+}
+
+.row4 input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
