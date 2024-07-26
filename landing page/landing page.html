@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starpreya landing page</title>
+    <link rel="stylesheet" href="landing page.css">
+    <link rel="stylesheet" href="landing page utlis.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header style="font-size: 24px;">
+            <a href="#" class="logo"><img class="logos" src="starpreya-logo (1).png" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New </a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>It's not just Coffee <br> It's <span>Starpreya</span>
+                </h2>
+                <p>We source our beans from the finest coffee-growing regions around the world, ensuring each cup is
+                    rich in flavor and ethically produced. Our coffee is carefully roasted in small batches to maintain
+                    its unique character and freshness. Whether you prefer a bold dark roast or a smooth medium blend,
+                    Java Bliss has something to delight every coffee lover.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="imgbox">
+                <img src="Untitled-1.png" class="starbucks" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="Untitled-1.png" width="144px" onclick="imgslider('Untitled-1.png')" alt=""></li>
+            <li><img src="Untitled-3.png" width="144px" onclick="imgslider('Untitled-3.png')" alt=""></li>
+            <li><img src="Untitled-2.png" width="144px" onclick="imgslider('Untitled-2.png')" alt=""></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="social_12942738.png" alt="" width="74px"></a></li>
+            <li><a href="#"><img src="instagram_1419647.png" alt="" width="74px"></a></li>
+            <li><a href="#"><img src="twitter_5968830.png" alt="" width="74px"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgslider(anything) {
+            document.querySelector('.starbucks').src = anything;
+        }
+    </script>
+</body>
+
+</html>
